@@ -12,12 +12,9 @@ async function greet() {
 }
 
 async function yjsTest() {
-  const yjs = await import('A/yjs');
   if (online.value) {
-    console.log(yjs);
     online.value = false;
   } else {
-    console.log(yjs);
     online.value = true;
   }
 }
@@ -26,7 +23,7 @@ async function yjsTest() {
 <template>
   <div class="card">
     <button type="button" @click="(yjsTest() as unknown as MouseEvent)">Yjs Test</button>
-    {{ `You are : ${online ? 'online' : 'offline'}` }}
+    {{ `You are : ${online ? 'en ligne' : 'offline'}` }}
   </div>
   <div class="card">
     <input id="greet-input" v-model="name" placeholder="Enter a name..." />

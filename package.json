@@ -10,10 +10,6 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@types/ws": "^8.5.3",
-    "lib0": "^0.2.42",
-    "@libp2p/pubsub-peer-discovery": "^7.0.0",
-    "@libp2p/webrtc-star-signalling-server": "^2.0.5",
     "vue": "^3.2.45",
     "@tauri-apps/api": "^1.2.0"
   },
